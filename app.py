@@ -25,7 +25,7 @@ def db_create():
         Name varchar(255),
         Number int
         );
-''')
+        ''')
     conn.commit()
     conn.close()
     return "Basketball Table Creation Successful"
